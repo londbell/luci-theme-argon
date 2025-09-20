@@ -1,5 +1,5 @@
 config global
-	option primary '#5e72e4'
+	option primary '#343687'
 	option dark_primary '#483d8b'
 	option progressbar_font '#2e2b60'
 	option font_weight '600'
