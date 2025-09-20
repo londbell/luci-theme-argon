@@ -11,23 +11,35 @@ msgstr ""
 "Language: zh_CN\n"
 "X-Generator: Poedit 2.3.1\n"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:102
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:160
 msgid "0 transparent - 1 opaque (suggest: black translucent preset: 0.5)."
 msgstr "0 最透明 - 1 不透明（建议：黑色半透明 0.5）"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:78
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:110
 msgid ""
 "0 transparent - 1 opaque (suggest: transparent: 0 or translucent preset: "
 "0.5)."
 msgstr "0 最透明 - 1 不透明（建议: 透明 0 或 半透明预设 0.5）。"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:91
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:141
 msgid "A HEX Color (default: #483d8b)."
 msgstr "十六进制颜色值（预设为：#483d8b）。"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:67
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:91
 msgid "A HEX color (default: #5e72e4)."
 msgstr "十六进制颜色值（预设为：#5e72e4）。"
+
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:122
+msgid "A HEX color (default: #2e2b60)."
+msgstr "十六进制颜色值（预设为：#2e2b60）。"
+
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:172
+msgid "A HEX Color (default: #ffffff)(origin: #172b4d)"
+msgstr "十六进制颜色值（预设为：#ffffff）（原始值：#172b4d）"
+
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:190
+msgid "A HEX Color (default: #ffffff)(origin: #adb5bd)"
+msgstr "十六进制颜色值（预设为：#ffffff）（原始值：#adb5bd）"
 
 #: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:155
 msgid "Action"
@@ -41,7 +53,7 @@ msgstr "主题设置"
 msgid "Argon theme configuration"
 msgstr "Argon 主题设置"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:175
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:269
 msgid "Background file list"
 msgstr "背景文件列表"
 
@@ -57,24 +69,27 @@ msgstr "内建"
 msgid "Dark mode"
 msgstr "暗黑模式"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:170
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:264
 msgid "Delete"
 msgstr "删除"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:73
 #: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:97
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:128
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:147
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:178
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:196
 msgid "Expecting: %s"
 msgstr "请输入：%s"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:139
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:233
 msgid "Failed to upload file: %s."
 msgstr "上传文件失败：%s。"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:152
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:246
 msgid "Filename"
 msgstr "文件名"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:129
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:223
 msgid "Files will be uploaded to <code>%s</code>."
 msgstr "文件将被上传至<code>%s</code>。"
 
@@ -94,8 +109,8 @@ msgstr ""
 "在这里你可以设置argon 主题的登录页面的模糊和透明度，并管理背景图片与视频。推"
 "荐使用 Chrome。"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:85
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:109
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:117
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:167
 msgid "Larger value will more blurred (suggest: clear: 1 or blur preset: 10)."
 msgstr "值越大越模糊（建议：清透 1 或 模糊预设 10）"
 
@@ -103,23 +118,23 @@ msgstr "值越大越模糊（建议：清透 1 或 模糊预设 10）"
 msgid "Light mode"
 msgstr "亮色模式"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:153
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:247
 msgid "Modified date"
 msgstr "修改时间"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:172
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:266
 msgid "No files found."
 msgstr "没有找到文件。"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:116
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:210
 msgid "Save current settings"
 msgstr "保存当前设置"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:114
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:208
 msgid "Save settings"
 msgstr "保存设置"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:154
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:248
 msgid "Size"
 msgstr "大小"
 
@@ -135,15 +150,15 @@ msgstr "主题模式"
 msgid "Unsplash"
 msgstr "Unsplash"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:128
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:222
 msgid "Upload background"
 msgstr "上传背景"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:122
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:216
 msgid "Upload background (available space: %1024.2mB)"
 msgstr "上传背景（可用空间：%1024.2mB）"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:131
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:225
 msgid "Upload..."
 msgstr "上传..."
 
@@ -162,52 +177,46 @@ msgid ""
 msgstr ""
 "你可以上传 gif/jpg/mp4/png/webm/webp 等格式的文件，以创建自己喜欢的登录界面。"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:108
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:190
+msgid "[Dark mode] Login Page Brand Name Color"
+msgstr "[暗色模式] 登录页品牌名称颜色"
+
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:166
 msgid "[Dark mode] Frosted Glass Radius"
 msgstr "[暗色模式] 毛玻璃模糊半径"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:90
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:140
 msgid "[Dark mode] Primary Color"
 msgstr "[暗色模式] 主色调"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:101
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:159
 msgid "[Dark mode] Transparency"
 msgstr "[暗色模式] 透明度"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:84
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:116
 msgid "[Light mode] Frosted Glass Radius"
 msgstr "[亮色模式] 毛玻璃模糊半径"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:67
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:172
+msgid "[Light mode] Login Page Brand Name Color"
+msgstr "[亮色模式] 登录页品牌名称颜色"
+
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:91
 msgid "[Light mode] Primary Color"
 msgstr "[亮色模式] 主色调"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:77
-msgid "[Light mode] Transparency"
-msgstr "[亮色模式] 透明度"
-
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:73
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:97
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:166
-msgid "valid HEX color value"
-msgstr "有效十六进制颜色值"
-
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:160
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:122
 msgid "[Light mode] Progress bar Font Color"
 msgstr "[亮色模式] 进度条字体颜色"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:160
-msgid "A HEX color (default: #2e2b60)."
-msgstr "十六进制颜色值（预设为：#2e2b60）。"
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:109
+msgid "[Light mode] Transparency"
+msgstr "[亮色模式] 透明度"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:86
-msgid "Font"
-msgstr "字体"
-
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:87
-msgid "Normal"
-msgstr "正常"
-
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:88
-msgid "Bold"
-msgstr "粗体"
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:97
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:115
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:133
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:164
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:183
+msgid "valid HEX color value"
+msgstr "有效十六进制颜色值"

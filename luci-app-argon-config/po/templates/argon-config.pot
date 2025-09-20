@@ -1,22 +1,34 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:102
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:160
 msgid "0 transparent - 1 opaque (suggest: black translucent preset: 0.5)."
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:78
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:110
 msgid ""
 "0 transparent - 1 opaque (suggest: transparent: 0 or translucent preset: "
 "0.5)."
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:91
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:141
 msgid "A HEX Color (default: #483d8b)."
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:67
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:91
 msgid "A HEX color (default: #5e72e4)."
+msgstr ""
+
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:122
+msgid "A HEX color (default: #2e2b60)."
+msgstr ""
+
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:172
+msgid "A HEX Color (default: #ffffff)(origin: #172b4d)"
+msgstr ""
+
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:190
+msgid "A HEX Color (default: #ffffff)(origin: #adb5bd)"
 msgstr ""
 
 #: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:155
@@ -31,7 +43,7 @@ msgstr ""
 msgid "Argon theme configuration"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:175
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:269
 msgid "Background file list"
 msgstr ""
 
@@ -47,24 +59,27 @@ msgstr ""
 msgid "Dark mode"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:170
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:264
 msgid "Delete"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:73
 #: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:97
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:128
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:147
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:178
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:196
 msgid "Expecting: %s"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:139
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:233
 msgid "Failed to upload file: %s."
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:152
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:246
 msgid "Filename"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:129
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:223
 msgid "Files will be uploaded to <code>%s</code>."
 msgstr ""
 
@@ -82,8 +97,8 @@ msgid ""
 "and manage the background pictures and videos. Chrome is recommended."
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:85
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:109
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:117
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:167
 msgid "Larger value will more blurred (suggest: clear: 1 or blur preset: 10)."
 msgstr ""
 
@@ -91,23 +106,23 @@ msgstr ""
 msgid "Light mode"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:153
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:247
 msgid "Modified date"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:172
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:266
 msgid "No files found."
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:116
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:210
 msgid "Save current settings"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:114
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:208
 msgid "Save settings"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:154
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:248
 msgid "Size"
 msgstr ""
 
@@ -123,15 +138,15 @@ msgstr ""
 msgid "Unsplash"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:128
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:222
 msgid "Upload background"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:122
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:216
 msgid "Upload background (available space: %1024.2mB)"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:131
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:225
 msgid "Upload..."
 msgstr ""
 
@@ -149,31 +164,46 @@ msgid ""
 "login page background."
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:108
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:190
+msgid "[Dark mode] Login Page Brand Name Color"
+msgstr ""
+
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:166
 msgid "[Dark mode] Frosted Glass Radius"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:90
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:140
 msgid "[Dark mode] Primary Color"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:101
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:159
 msgid "[Dark mode] Transparency"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:84
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:116
 msgid "[Light mode] Frosted Glass Radius"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:67
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:172
+msgid "[Light mode] Login Page Brand Name Color"
+msgstr ""
+
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:91
 msgid "[Light mode] Primary Color"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:77
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:122
+msgid "[Light mode] Progress bar Font Color"
+msgstr ""
+
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:109
 msgid "[Light mode] Transparency"
 msgstr ""
 
-#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:73
 #: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:97
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:115
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:133
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:178
+#: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:196
 msgid "valid HEX color value"
 msgstr ""

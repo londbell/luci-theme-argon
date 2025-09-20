@@ -169,6 +169,42 @@ return view.extend({
 		o.default = '10';
 		o.rmempty = false;
 
+        o = s.option(form.Value, 'brand_light_color', _('[Light mode] Login Page Brand Name Color'), _('A HEX Color (default: #ffffff)(origin: #172b4d)'))
+        o.default = '#FFFFFF';
+		o.rmempty = false;
+        o.validate = function(section_id, value) {
+			if (section_id)
+				return /(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i.test(value) ||
+					_('Expecting: %s').format(_('valid HEX color value'));
+			return true;
+		};
+        o.render = function(section_id, option_index, cfgvalue) {
+			var el = form.Value.prototype.render.apply(this, arguments);
+			setTimeout(function() {
+				const textInput = document.querySelector('[id^="widget.cbid.argon."][id$=".brand_light_color"]');
+				createColorPicker(textInput);
+			}, 0);
+			return el;
+		};
+
+		o = s.option(form.Value, 'brand_dark_color', _('[Dark mode] Login Page Brand Name Color'), _('A HEX Color (default: #ffffff)(origin: #adb5bd)'))
+		o.default = '#FFFFFF';
+		o.rmempty = false;
+		o.validate = function(section_id, value) {
+			if (section_id)
+				return /(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i.test(value) ||
+					_('Expecting: %s').format(_('valid HEX color value'));
+			return true;
+		};
+		o.render = function(section_id, option_index, cfgvalue) {
+			var el = form.Value.prototype.render.apply(this, arguments);
+			setTimeout(function() {
+				const textInput = document.querySelector('[id^="widget.cbid.argon."][id$=".brand_dark_color"]');
+				createColorPicker(textInput);
+			}, 0);
+			return el;
+		};
+
 		o = s.option(form.Button, '_save', _('Save settings'));
 		o.inputstyle = 'apply';
 		o.inputtitle = _('Save current settings');

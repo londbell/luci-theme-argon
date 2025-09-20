@@ -76,6 +76,8 @@
   --blur-opacity: 0.5;
   --blur-radius-dark: 10px;
   --blur-opacity-dark: 0.5;
+  --brand-light-color: #ffffff;
+  --brand-dark-color: #ffffff;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Google Sans", "Microsoft Yahei", "WenQuanYi Micro Hei", "sans-serif", "Helvetica Neue", "Helvetica", "Hiragino Sans GB";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   --font-family-normal: Open Sans, PingFangSC-Regular, Microsoft Yahei, WenQuanYi Micro Hei, "Helvetica Neue", Helvetica, Hiragino Sans GB, sans-serif;
@@ -514,8 +516,8 @@ h5 {
   -webkit-box-align: center;
   align-items: center;
   margin: 50px auto 100px 50px;
-  color: #525461;
-  color: var(--default);
+  color: #fff;
+  color: var(--brand-light-color);
   justify-content: center
 }
 
@@ -526,7 +528,7 @@ h5 {
 }
 
 .login-page .login-container .login-form .brand .brand-text {
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 700;
   font-family: "Sniglet-Regular";
   font-weight: bold;
@@ -675,7 +677,8 @@ h5 {
 }
 
 .login-page .login-container footer .luci-link {
-  display: block
+  display: block;
+  color: var(--default)
 }
 
 header,
@@ -832,16 +835,17 @@ header .fill .container .flex1 .showSide:hover {
   text-decoration: none
 }
 
+/* 设计的有问题，手机版本不会展示，如果设置为可以展示，那么电脑版会展示两个brandname*/
 header .fill .container .flex1 .brand {
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--brand-light-color);
   font-family: "Sniglet-Regular";
   font-weight: bold;
   text-decoration: none;
   padding-left: 1rem;
   cursor: default;
   vertical-align: text-bottom;
-  display: none
+  display: none;
 }
 
 header .fill .container .pull-right {
